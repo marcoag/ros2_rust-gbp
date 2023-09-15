@@ -1,0 +1,12 @@
+Source: ros-humble-rclrs-tests
+Section: misc
+Priority: optional
+Maintainer: Chris Reid <christopherjreid@outlook.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-rclrs, ros-humble-rosidl-runtime-rs, ros-humble-test-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rclrs-tests
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-rclrs, ros-humble-rosidl-runtime-rs, ros-humble-test-msgs, ros-humble-ros-workspace
+Description: Package containing tests for rclrs that make use of msgs and other dependencies
