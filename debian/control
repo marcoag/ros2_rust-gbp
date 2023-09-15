@@ -1,0 +1,12 @@
+Source: ros-humble-rosidl-runtime-rs
+Section: misc
+Priority: optional
+Maintainer: Jacob Hassold <jacob.a.hassold.civ@army.mil>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-rosidl-runtime-c, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rosidl-runtime-rs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-rosidl-runtime-c, ros-humble-ros-workspace
+Description: Message generation code shared by Rust projects in ROS 2
