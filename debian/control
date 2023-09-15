@@ -1,0 +1,12 @@
+Source: ros-humble-examples-rclrs-message-demo
+Section: misc
+Priority: optional
+Maintainer: Nikolai Morin <nnmmgit@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-rclrs, ros-humble-rclrs-example-msgs, ros-humble-rosidl-runtime-rs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-examples-rclrs-message-demo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-rclrs, ros-humble-rclrs-example-msgs, ros-humble-rosidl-runtime-rs, ros-humble-ros-workspace
+Description: Package containing an example of message-related functionality in rclrs.
