@@ -1,0 +1,12 @@
+Source: ros-humble-examples-rclrs-minimal-pub-sub
+Section: misc
+Priority: optional
+Maintainer: Esteve Fernandez <esteve@apache.org>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-rclrs, ros-humble-rosidl-runtime-rs, ros-humble-std-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-examples-rclrs-minimal-pub-sub
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-rclrs, ros-humble-rosidl-runtime-rs, ros-humble-std-msgs, ros-humble-ros-workspace
+Description: Package containing an example of the publish-subscribe mechanism in rclrs.
