@@ -1,0 +1,12 @@
+Source: ros-humble-rclrs
+Section: misc
+Priority: optional
+Maintainer: Esteve Fernandez <esteve@apache.org>
+Build-Depends: debhelper (>= 9.0.0), libclang-dev, ros-humble-builtin-interfaces, ros-humble-rcl, ros-humble-rcl-interfaces, ros-humble-rosidl-runtime-rs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rclrs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-builtin-interfaces, ros-humble-rcl-interfaces, ros-humble-ros-workspace
+Description: Package containing the Rust client library.
